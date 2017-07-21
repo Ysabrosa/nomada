@@ -1,0 +1,1031 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html{
+    box-sizing: border-box;
+    width: 95%;
+    margin: 0 auto;
+    background-color: white;
+}
+*,*:before,*:after{
+        box-sizing: inherit;
+}
+body{
+    font-family: "Segoe UI light";
+}
+
+
+div.navegacion{
+    margin-left: 10%;
+    border-radius: 3px;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    margin: 0 auto;
+    border-bottom: 1.3px  dashed #ff4d4d;
+}
+div.navegacion ul li{
+    display: inline-block;
+    float:left;
+    padding:0px 10px 10px 10px;
+    list-style: none;
+    letter-spacing: 1.5px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-transform: uppercase;
+}
+div.navegacion a{
+    color:black;
+    padding-left: 10px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    font-weight:bold;
+    transition: all .3s ease;
+}
+div.navegacion a:hover{
+    color: #ff4d4d;   
+}
+
+
+div.contenedor{
+    width: 70%;
+    float: right;
+
+}
+
+div.contenedor section{
+
+ padding-top:2%; 
+ padding-bottom: 2%;
+ width: 95%;
+ display: block;
+ margin:0 auto;
+
+}
+
+
+    div.navegacion:after{
+        content:'';
+        display: block;
+        clear: both;
+    }
+
+
+
+         img.header{
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        border-radius: 3px;
+    }
+
+ 
+
+    aside{
+    margin-top: 5%;   
+    width: 30%;
+    float: right;
+    text-align:center;
+}
+
+
+
+ 
+        div.perfil:after{
+        content:'';
+        display: block;
+        clear: both;
+    }
+
+    span{
+        letter-spacing: 1.3px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        font-size:1em;
+    }
+
+
+   article{
+    text-align: justify;
+    display: inline-block;
+    border-radius:5px;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+   }
+
+   article img{
+    width: 97%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 3px;
+    margin-top: 2%;
+   }
+
+   article h3{
+    text-align: center;
+   font-family: 'Playfair Display', serif;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-size: 1.5em;
+    font-weight: lighter;
+   }
+
+   article a{
+    text-decoration: none;
+    color: black;
+    transition: all .3s ease;
+   }
+
+      article a:hover{
+    
+    color:#8c8c8c;
+   }
+  
+
+   article.mexicanos{
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    float: left;
+   }
+
+   article.mexicanos li{
+    list-style: none;
+   }
+
+   ul h2{
+    font-family: 'Playfair Display', serif;
+    margin-left: 5%;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+    clear: both;
+
+   }
+    article.mexicanos p{
+    clear: both;
+    
+   }
+
+
+   article.mexicanos img{
+    width: 100%;
+    clear: both;
+    float: right;
+   }
+
+    article.mexicanos span.mexico{
+    
+    margin-top: 5%;    
+    font-family: 'Playfair Display', serif;     
+    font-weight: lighter;
+    text-transform: none;
+    font-size: 1.4em;
+    letter-spacing: 1.5px;
+   }
+
+   .button{
+    color:#ff4d4d;
+    display: inline;
+    width: 100%;
+    border-bottom:0.5px dashed #ff4d4d;
+    padding: 5px 20px 5px 20px;
+    float: center;
+    transition: all .4s ease;
+
+}   
+
+.button:hover{
+     background-color: #ff4d4d;
+     color: white;
+     cursor: pointer;
+
+}
+       aside img{
+        margin: 0 auto;
+        display: block;
+        border-radius: 100%;
+        width: 50%;
+    }
+
+    aside p,h3{
+        padding: 10px 30px 10px 30px;
+        line-height: 30px;
+    }
+
+    aside h3{
+        text-transform: uppercase;
+        font-family: 'Quicksand', sans-serif;
+        letter-spacing: 2px;
+        font-size: 1em;
+        display: inline-block;
+        border:1.2px dashed  #ff4d4d;
+        font-weight: lighter;
+    }
+
+    aside img.redes{
+        width: 90%;
+        border-radius:0;
+    }
+
+    aside ul {
+        margin: 0 auto;
+        list-style: none;   
+    }
+
+    aside p{
+        line-height: 25px;
+        text-align: justify;
+    }
+
+        aside ul li a{
+        text-decoration: none;
+        display: inline;
+        float:left;
+        padding: 0px 5px 0px 5px;
+        font-size: 1.7em;
+        color: #ff4d4d;
+        transition: all .5s ease;
+    }
+
+    aside ul li a:hover{
+        color: black;
+    }
+
+    aside ul li{ 
+        margin-left: 28%;   
+    }
+   footer{
+   clear: both;
+   padding-top:1%;
+    padding-bottom:1%;
+   border-top: 1px dashed #ff4d4d;
+   color: #ff4d4d;
+   }
+
+   footer p i{
+   
+    padding-left:1%;
+    font-size:1.5em!important;
+   }
+
+   footer h2{
+    text-align: center;
+    font-weight: lighter;   
+    display: block;
+    margin-left: 4%;
+   }
+
+    footer:after{
+        content:'';
+        display: block;
+        clear: both;
+    }
+
+    footer p{
+       margin: 0 auto;
+        display: block;
+        width: 50%;
+        font-size: 1em;
+        text-align: center;
+        color: black;
+    }
+
+  #foot{
+    text-transform: none;
+    color:#ff4d4d;
+    letter-spacing: 2px;    
+  }
+
+  /*conoceme*/
+  article.sobre-mi{
+    width: 90%;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+  }
+
+    .sobre-mi h2{
+    text-align:center;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+  }
+
+  nav.secundario{
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom:1px dashed #ff4d4d;
+  }
+      nav.secundario:after{
+        content:'';
+        display: block;
+        clear: both;
+    }
+
+
+  nav.secundario ul{
+    list-style: none;
+
+  }
+  nav.secundario ul li{
+    
+    display:inline-block;
+    float: left;
+   
+
+  }
+    nav.secundario ul li a{
+    text-decoration: none;
+    color: black;
+    transition: all .4s ease;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+    nav.secundario ul li a:hover{
+    background-color: black;
+    color: white;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+  }
+
+  div.aplicaciones{
+    width: 100%;
+  }
+   div.aplicaciones h2{
+   padding-top: 5%;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    font-size:1.5em;
+    letter-spacing: 2px;
+    text-transform: uppercase;  
+  }
+   .aplicaciones ul li{
+    list-style: none;
+    font-size: 1.3em;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .aplicaciones article{
+    width: 100%;
+  }
+  .aplicaciones img{
+    width: 50%;
+  }
+
+  div.contenedor-contacto{
+    width: 100%;
+    letter-spacing: 2px;
+    font-family: "Segoe UI light";
+    font-weight: lighter;
+    text-align: center;
+  }
+        div.contenedor-contacto:after{
+        content:'';
+        display: block;
+        clear: both;
+    }
+
+  div.formulario{
+    float: right;
+    border-radius: 5px;
+    background-color: rgba(255, 77, 77,.7);
+    width: 43%;
+    margin-bottom: 5%;
+    margin:0 auto;
+  }
+      div .texto-contacto{
+      float: left;
+      width: 50%;
+      padding-right: 3%;
+      text-align: left;
+       line-height: 28px;
+    }
+
+
+        div.formulario:after{
+        content:'';
+        display: block;
+        clear: both;
+    }
+
+  .contenedor-contacto button{
+    border-radius: 3px;
+    font-size: 1.2em;
+    margin-top: 5%;
+    padding: 1% 8% 1% 8%; 
+    background-color: #4dc3ff;
+    color: white;
+    border:none;
+    transition: all .3s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .contenedor-contacto button i{
+    font-size: 1.5em;
+    font-weight: lighter;
+  }
+
+   .contenedor-contacto button:hover{
+    background-color: #1affff;
+    }
+
+  form{
+    padding-top: 5%;
+    margin:0 auto;
+    width: 90%;
+  }
+  input.largos{
+    border-radius: 3px;
+    border:none!important;
+    margin-left: 4%;
+    margin-top: 3%;
+    width: 80%;
+    height: 40px;
+  }
+  textarea{
+    border-radius: 3px;
+    border:none!important;
+    margin-left: 4%;
+    margin-top: 3%;
+    width: 80%;
+  }
+
+input.largos::-webkit-input-placeholder { 
+    color:#a6a6a6; 
+}
+label{
+
+  text-align: left;
+  font-size: 1.8em;
+  font-weight: lighter;
+  color: white;
+}
+
+
+
+
+
+ @media screen and (min-width:780px) and (max-width: 2000px){
+
+
+    .perfil img{
+        width: 25%; 
+        float: left!important;
+    }
+    div.navegacion img{
+        width: 20%;
+    }
+    .navegacion{
+        font-size:.9em;
+    }
+    nav.secundario{
+        font-size:.8em;
+    }
+     div.perfil p{
+        display: block;
+        line-height: 30px;
+        float: right;
+    }
+
+    article{
+        text-align:left; 
+        width: 45%;
+        padding: 10px 10px;
+    }
+
+
+
+
+    footer ul li{
+        margin-left:45%;
+    }
+    footer p{
+        width: 70%;
+    }
+
+    footer ul li a{
+    padding-right: 20px;
+   }
+
+   article.sobre-mi{
+    
+    letter-spacing: 1.5px;
+    line-height: 30px;
+  }
+
+  aside img{
+    width: 45%;
+  }
+ 
+  }
+
+
+
+   @media screen and (min-width: 480px) and (max-width: 780px){
+
+    div.contenedor{
+        width: 100%;
+    }
+    div.navegacion img{
+        width: 30%;
+    }
+
+        .navegacion{
+        font-size:.8em;
+    }
+    nav.secundario{
+        font-size:.8em;
+    }
+
+
+        div.perfil{
+        width: 70%;
+        
+    }
+
+      div.perfil img{
+    
+        width: 35%;
+        margin-right: 3%;
+    }
+
+     div.perfil p{
+        
+        line-height: 25px;
+    }
+
+     div.perfil h3{
+        
+       text-align: right;
+    }
+
+    aside{
+        width: 100%;
+    }
+
+     aside img{
+       
+        border-radius: 100%;
+        width: 28%;
+    }
+    article{
+    padding: 10px 10px;    
+    width: 90%;
+    display: inline-block;
+    margin-right: 1.5%;
+    margin-left: 2.5%;
+}
+
+    footer ul li a{
+    padding-right: 15px;
+   }
+
+footer ul li{
+    margin-left:38%;
+   }
+
+    footer p{
+   font-size: 15px;
+   width: 70%;
+   }
+
+   article.sobre-mi{
+   
+    letter-spacing: 1.5px;
+    line-height: 25px;
+  }
+
+  div.aplicaciones h2{
+    
+    font-size:1.3em;
+  }
+
+  div.contacto{
+    margin: 0 auto;
+    width: 100%;
+}
+
+  div.contenedor-contacto{
+    width: 100%;
+  }
+    div.formulario{
+    margin: 0 auto;
+    width: 90%;
+    float:center;
+  }
+
+      div .texto-contacto{
+      margin: 0 auto;
+      float:center;
+      width: 90%;
+      padding-left: 15%;
+      text-align: justify;
+     
+      line-height: 28px;
+    }
+
+
+  }
+   
+
+   @media screen and (max-width: 480px){
+
+    div.contenedor{
+        width: 100%;
+    }
+     div.navegacion img{
+        width: 40%;
+    }
+
+         .navegacion{
+        font-size:.8em;
+    }
+    nav.secundario{
+        font-size:.8em;
+    }
+
+
+    div.perfil{   
+        width: 75%;        
+    }
+
+  div.perfil img{
+      width: 50%;    
+    }
+
+     div.perfil p{
+        display: block;
+        float:right;
+        line-height: 23px;
+    }
+     div.perfil h3{
+       font-size: 1.8em;
+    }
+
+article{
+    width: 90%;
+    margin-top: 2%;
+    padding:10px 10px;
+}
+
+article img{
+    height: 150px;
+    width: 95%;
+}
+
+article.mexicanos h2{
+    font-size: 1.2em;
+    line-height: 30px;
+}
+article.mexicanos {
+    font-size: 15px;
+   
+}
+
+aside{
+    width: 100%;
+}
+
+aside img{
+    width: 45%;
+}
+
+footer ul li{
+    
+    margin-left:28%;
+   }
+
+    footer ul li a{
+    padding-right: 18px;
+   }
+
+   footer p{
+   font-size: 14px;
+   width: 70%;
+   }
+
+      article.sobre-mi{
+        letter-spacing: 1.5px;
+        line-height: 25px;
+  }
+
+    div.aplicaciones h2{
+    
+    font-size:1.2em;
+  }
+
+   div.formulario{
+    font-size: 15px;
+    margin: 0 auto;
+    width: 90%;
+    float:center;
+  }
+
+      div .texto-contacto{
+        margin: 0 auto;
+      float:center;
+      width: 90%;
+      padding-left: 10%;
+      padding-right: 3%;
+      text-align: left;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
